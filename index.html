@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Emergency Response System</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>🚑 Emergency Response System</h1>
+  <p class="subtitle">Manage Emergency Cases Efficiently</p>
+
+  <div class="form-card">
+    <input type="text" id="name" placeholder="Patient Name">
+    <input type="text" id="type" placeholder="Emergency Type">
+    <button onclick="addRecord()">Add Emergency</button>
+  </div>
+
+  <div class="records-card">
+    <h3>📋 Emergency Records</h3>
+    <ul id="records"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
